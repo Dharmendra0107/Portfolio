@@ -1,0 +1,940 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>DK | Portfolio</title>
+  <link id='favicon' rel="shortcut icon" href="images/dlogo.png" type="image/x-png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/unicons.css">
+  <link rel="stylesheet" href="css/preloader.css">
+  <!--Sroll Animation-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <script src="https://kit.fontawesome.com/27a24d1a74.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/preloader.js"></script>
+  <!-- MAIN STYLE -->
+  <link rel="stylesheet" href="css/style.css">
+  <!--for style in project section-->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+    })();
+  </script>
+  <style>
+    .path-0 {
+      animation: pathAnim-0 4s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes pathAnim-0 {
+      0% {
+        d: path("M 0,700 L 0,262 C 81.05462040535897,237.42219168670562 162.10924081071795,212.8443833734112 237,221 C 311.89075918928205,229.1556166265888 380.6176571624871,270.04465819306074 434,323 C 487.3823428375129,375.95534180693926 525.4201305393336,440.9769838543456 594,497 C 662.5798694606664,553.0230161456544 761.7018206801787,600.047406389557 830,596 C 898.2981793198213,591.952593610443 935.7725867399517,536.833390587427 994,513 C 1052.2274132600483,489.166609412573 1131.2078323600138,496.61903126073514 1209,535 C 1286.7921676399862,573.3809687392649 1363.3960838199932,642.6904843696325 1440,712 L 1440,700 L 0,700 Z");
+      }
+
+      25% {
+        d: path("M 0,700 L 0,262 C 80.89797320508416,267.1350051528684 161.7959464101683,272.2700103057369 217,290 C 272.2040535898317,307.7299896942631 301.71418756441085,338.0549639299209 374,349 C 446.28581243558915,359.9450360700791 561.3473033321883,351.51013397457916 633,383 C 704.6526966678117,414.48986602542084 732.8965991068362,485.90450017176227 791,496 C 849.1034008931638,506.09549982823773 937.0663002404672,454.8718653383718 1021,507 C 1104.9336997595328,559.1281346616282 1184.8381999312949,714.6080384747509 1254,766 C 1323.1618000687051,817.3919615252491 1381.5809000343525,764.6959807626246 1440,712 L 1440,700 L 0,700 Z");
+      }
+
+      50% {
+        d: path("M 0,700 L 0,262 C 49.7437306767434,281.98488491927174 99.4874613534868,301.96976983854347 176,308 C 252.5125386465132,314.03023016145653 355.7938852627963,306.1058055650979 432,342 C 508.2061147372037,377.8941944349021 557.3369975953281,457.6070079010649 616,477 C 674.6630024046719,496.3929920989351 742.8581243558916,455.46616283064236 819,465 C 895.1418756441084,474.53383716935764 979.2305049811062,534.5283407763656 1042,597 C 1104.7694950188938,659.4716592236344 1146.219855719684,724.4204740638955 1209,744 C 1271.780144280316,763.5795259361045 1355.890072140158,737.7897629680522 1440,712 L 1440,700 L 0,700 Z");
+      }
+
+      75% {
+        d: path("M 0,700 L 0,262 C 89.99793885262798,221.77327378907592 179.99587770525596,181.54654757815186 244,185 C 308.00412229474404,188.45345242184814 346.01442803160427,235.58708347646854 398,261 C 449.98557196839573,286.41291652353146 515.946410168327,290.1051185159739 588,332 C 660.053589831673,373.8948814840261 738.1999312950877,453.99244245963587 803,494 C 867.8000687049123,534.0075575403641 919.2538646513226,533.9251116454826 995,528 C 1070.7461353486774,522.0748883545174 1170.784610099622,510.30711095843355 1249,540 C 1327.215389900378,569.6928890415664 1383.607694950189,640.8464445207833 1440,712 L 1440,700 L 0,700 Z");
+      }
+
+      100% {
+        d: path("M 0,700 L 0,262 C 81.05462040535897,237.42219168670562 162.10924081071795,212.8443833734112 237,221 C 311.89075918928205,229.1556166265888 380.6176571624871,270.04465819306074 434,323 C 487.3823428375129,375.95534180693926 525.4201305393336,440.9769838543456 594,497 C 662.5798694606664,553.0230161456544 761.7018206801787,600.047406389557 830,596 C 898.2981793198213,591.952593610443 935.7725867399517,536.833390587427 994,513 C 1052.2274132600483,489.166609412573 1131.2078323600138,496.61903126073514 1209,535 C 1286.7921676399862,573.3809687392649 1363.3960838199932,642.6904843696325 1440,712 L 1440,700 L 0,700 Z");
+      }
+    }
+  </style>
+
+  <!---->
+</head>
+
+<body>
+  <!--Pre Loder-->
+  <div id="loader">
+    <div id="particles-background" class="vertical-centered-box"></div>
+    <div id="particles-foreground" class="vertical-centered-box"></div>
+
+    <div class="vertical-centered-box">
+      <div class="content">
+        <div class="loader-circle"></div>
+        <div class="loader-line-mask">
+          <div class="loader-line"></div>
+
+        </div>
+        <img width="80px" height="80px" viewBox="0 0 36 24" src="./images/dklogo.png">
+
+      </div>
+
+    </div>
+  </div>
+
+  <!--Home Background-->
+
+
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-sm navbar-light" data-aos="fade-down">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class='uil' src="images/dklogo.png"> Dharmendra</a>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link"><span data-hover="Home">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link"><span data-hover="Skills">Skills</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link"><span data-hover="Education">Education</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link"><span data-hover="Projects">Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#experiences" class="nav-link"><span data-hover="Experiences">Experiences</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#achievements" class="nav-link"><span data-hover="Achievements">Achievements</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+          </li>
+        </ul>
+      </div>
+      <ul class="navbar-nav">
+        <div class="ml-lg-4">
+          <div class="color-mode">
+            <i class="color-mode-icon"></i>
+            <!--Color mode-->
+          </div>
+        </div>
+      </ul>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HOME -->
+   
+
+  <section class="home full-screen d-lg-flex justify-content-center align-items-center" id="home">
+    <div id="particles-js"></div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+          <div class="home-text" data-aos="fade-right">
+            <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+            <h1 class="animated animated-text">
+              <span class="mr-2">Hi folk, I'm</span>
+              <span class="name-dk">Dharmendra</span><br>
+              <div class="animated-info">
+                <span class="animated-item">Digital Marketing</span>
+                <span class="animated-item">Web Developer</span>
+                <span class="animated-item">UI/UX Designer</span>
+              </div>
+            </h1>
+
+            <h6 class="intro">Empowering success by combining endless energy with a love for creating smooth user
+              experiences. Join us on a journey where new ideas make a real difference!</h6>
+
+            <div class="custom-btn-group mt-4">
+              <a href="https://drive.google.com/file/d/12PYq-Jz9RR5_YhZz3D1wjyrCh6muudWR/view?usp=drive_link"
+                class="btn mr-lg-2 custom-btn" target="blank"><i class='uil uil-file-alt'></i>Resume</a>
+              <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-12 col-12">
+          <div class="home-image png" data-aos="fade-left">
+            <img src="images/dkplogo.png" class="img-fluid" alt="about image">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="home-cards">
+    <div class="box-container">
+      <div class="box-item">
+        <div class="flip-box">
+          <div class="flip-box-front text-center" style="background-image: url('./images/btech.jpeg');">
+            <div class="inner color-white">
+              <h6 class="title">-- Highlight --</h6>
+              <h3 class="flip-box-header">Pursuing B Tech</h3>
+              <p>Computer Science and Engineering<br></p>
+              <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+            </div>
+          </div>
+          <div class="flip-box-back text-center" style="background-image: url('./images/btech.jpeg');">
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Batch 2021 - 2025</h3>
+              <p>SVN Institute of Engineering Technology</p>
+              <div class="flip-box-buttons">
+                <a href="https://www.linkedin.com/in/dksilentkiller/" class="fab fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/dksilentkiller/" class="fab fa-github" target="_blank"></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-item">
+        <div class="flip-box">
+          <div class="flip-box-front text-center" style="background-image: url('./images/javadsa.jpg');">
+            <div class="inner color-white">
+              <h6 class="title">-- Learning --</h6>
+              <h3 class="flip-box-header">DSA in JAVA</h3>
+              <p>Intermediate</p>
+              <img src="" alt="" class="flip-box-img">
+            </div>
+          </div>
+          <div class="flip-box-back text-center" style="background-image: url('./images/javadsa.jpg');">
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Crafting</h3>
+              <p>Elevating my skills and embracing the power of DSA in JAVA. 🚀</p>
+              <div class="flip-box-buttons">
+                <a href="https://www.linkedin.com/in/dksilentkiller/" class="fab fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/dksilentkiller" class="fab fa-github" target="_blank"></a>
+                <!-- <a href="mailto:dkmom00@gmail.com" class="fa-solid fa-code" target="_blank"></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-item">
+        <div class="flip-box">
+          <div class="flip-box-front text-center filter-" style="background-image: url('./images/final.jpeg');">
+            <div class="inner color-white">
+              <h6 class="title">-- Ongoing Project --</h6>
+              <h3 class="flip-box-header"></h3>
+              <p>A Project based on DSA</p>
+              <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+            </div>
+          </div>
+          <div class="flip-box-back text-center" style="background-image: url('./images/final.jpeg');">
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Building...</h3>
+              <p>The project details will be updated soon.</p>
+              <div class="flip-box-buttons">
+                <a href="https://www.linkedin.com/in/dksilentkiller/" class="fab fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/dksilentkiller" class="fab fa-github" target="_blank"></a>
+                <!-- <a href="mailto:dkmom00@gmail.com" class="fa-solid fa-code" target="_blank"></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT ME -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="sectionhead">
+        <h1 data-aos="fade-up"><i class="fa-solid fa-user-graduate"></i> About <span>Me</span></h1>
+      </div>
+      <div class="box flex-direction">
+        <div class="about-me" data-aos="fade-right">
+          <img src="images/dkabout.png" alt="About Me Image" />
+        </div>
+        <div class="about-details">
+          <p data-aos="fade-left">I am Dharmendra Kumar Yadav, a dedicated and driven student pursuing Computer Science
+            and Engineering at SVN institute of Engineering and Technology, with a focus on Frontend Web Development. My
+            journey in the
+            dynamic realm of technology is propelled by an insatiable curiosity for pioneering advancements, a fervent
+            passion for innovation, and an unwavering dedication to perpetual growth and development.
+          </p>
+
+          <h6 data-aos="fade-left">🚀 Tech Enthusiast:</h6>
+          <p data-aos="fade-left">I have delved deeply into a diverse array of programming languages, including Java, C,
+            JavaScript, and Python. Additionally, I possess a strong command of frontend technologies such as HTML, CSS,
+            and JavaScript, allowing me to seamlessly translate ideas into captivating and user-friendly interfaces. For
+            me, the creation of aesthetically pleasing and highly functional websites transcends mere skill; it embodies
+            a genuine passion.</p>
+
+          <h6 data-aos="fade-left">🧠 Beyond the Screen:</h6>
+          <p data-aos="fade-left">For me, it's not merely about lines of code; rather, it's the captivating convergence
+            of Artificial Intelligence and Machine Learning that truly ignites my passion. Delving into the boundless
+            horizons of intelligent systems, I've embarked on transformative endeavors like crafting the Intellicare
+            ChatBot. Through seamless integration of voice assistance and AI prowess, this innovative project seamlessly
+            connects users with expert medical professionals, exemplifying the remarkable potential at the nexus of
+            technology and human well-being.</p>
+
+          <h6 data-aos="fade-left">Here's to the exhilarating journey of coding, perpetual learning, and crafting a
+            future imbued with the marvels of technology! 🌟 Let's soar towards new horizons together! 🚀</h6>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- skills section starts -->
+  <section class="skills" id="skills">
+    <div class="container">
+
+      <div class="col-lg-11 text-center mx-auto col-12">
+        <div class="sectionhead">
+          <h1 data-aos="fade-up"><i class="fa-solid fa-code"></i> Skills & <span>Abilities</span></h1>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="bar" data-aos="fade-right">
+              <div class="info">
+                <i class="fab fa-java"></i>
+                <span>Java</span>
+                <span>85%</span>
+              </div>
+              <div class="line java"></div>
+            </div>
+
+            <div class="bar" data-aos="fade-right">
+              <div class="info">
+                <i class="fa-solid fa-paintbrush"></i>
+                <span>Canva</span>
+                <span>80%</span>
+              </div>
+              <div class="line cpp"></div>
+            </div>
+
+            <div class="bar" data-aos="fade-right">
+              <div class="info">
+                <i class="fab fa-html5"></i>
+                <span>HTML/CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+
+            <div class="bar" data-aos="fade-right">
+              <div class="info">
+                <i class="fas fa-c"></i>
+                <span>C Language</span>
+                <span>90%</span>
+              </div>
+              <div class="line c"></div>
+            </div>
+
+            <div class="bar" data-aos="fade-right">
+              <div class="info">
+                <i class="fas fa-database"></i>
+                <span>Bootstrap</span>
+                <span>80%</span>
+              </div>
+              <div class="line content"></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bar" data-aos="fade-left">
+              <div class="info">
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+                <span>65%</span>
+              </div>
+              <div class="line python"></div>
+            </div>
+
+            <div class="bar" data-aos="fade-left">
+              <div class="info">
+                <i class="fab fa-react"></i>
+                <span>Graphics Designing</span>
+                <span>75%</span>
+              </div>
+              <div class="line graphics"></div>
+            </div>
+
+            <div class="bar" data-aos="fade-left">
+              <div class="info">
+                <i class="fab fa-microsoft"></i>
+                <span>Microsoft Office Suite</span>
+                <span>80%</span>
+              </div>
+              <div class="line msoffice"></div>
+            </div>
+
+            <div class="bar" data-aos="fade-left">
+              <div class="info">
+                <i class="fa-solid fa-list-check"></i>
+                <span>Project Management</span>
+                <span>85%</span>
+              </div>
+              <div class="line project"></div>
+            </div>
+
+            <div class="bar" data-aos="fade-right">
+              <div class="info">
+                <i class="fab fa-google cloud"></i>
+                <span>Tailwind CSS</span>
+                <span>60%</span>
+              </div>
+              <div class="line gcp"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skills section ends -->
+
+  <!--Education Section Starts-->
+  <section class="education" id="education">
+    <div class="container">
+      <div class="col-lg-11 text-center mx-auto col-12">
+        <div class="sectionhead">
+          <h1 data-aos="fade-up"><i class="fa-solid fa-graduation-cap"></i> </i> Education & <span>Trainings</span></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 m-15px-tb">
+          <h2 class="heading-text">Education</h2>
+          <div class="edu-list" data-aos="fade-right">
+            <div class="edu-content">
+              <h2>SVN institute of Engineering and Technology </h2>
+              <h3>2022-2026</h3>
+              <p class="position"><b>Bachelor of Technology</b></p>
+              <p class="Organisation">Dr. A. P. J. Abdul Kalam Technical University (AKTU)</p>
+            </div>
+          </div>
+          <div class="edu-list" data-aos="fade-right">
+            <div class="edu-content">
+              <h2>MDM Public Inter College, Lucknow </h2>
+              <h3>2020-2021</h3>
+              <p class="position"><b>Intermediate</b></p>
+              <p class="Organisation">UP Board</p>
+            </div>
+          </div>
+          <div class="edu-list" data-aos="fade-right">
+            <div class="edu-content">
+              <h2>MDM Public Inter College, Lucknow </h2>
+              <h3>2018-2019</h3>
+              <p><b>Hight School</b></p>
+              <p class="Organisation">UP Board</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 m-15px-tb">
+          <h2 class="heading-text">Trainings</h2>
+          <div class="edu-list" data-aos="fade-left">
+            <div class="edu-content">
+              <h2>Softpro India</h2>
+              <h3>July 2024 - september 2024</h3>
+              <p>Foundation Training</p>
+              <p>Fullstack Development with Python</p>
+            </div>
+          </div>
+          <div class="edu-list" data-aos="fade-left">
+            <div class="edu-content">
+              <h2>Job simulation in IAM with Tata Consultancy Services</h2>
+              <h3>Fabruary 2024</h3>
+              <p>Cybersecurity</p>
+              <p>Effective communication and Presentation Training</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Prjects Section-->
+  <section class="projects" id="projects">
+    <div class="container">
+
+      <div class="col-lg-11 text-center mx-auto col-12">
+        <div class="sectionhead">
+          <h1 data-aos="fade-up"><i class="fa-solid fa-brain"> </i> <span> Projects</span></h1>
+        </div>
+        <p data-aos="fade-up">Discover my digital canvas! This project section unveils my creative odyssey, where ideas
+          morph into reality.
+          From code symphonies to design poetry, each project narrates a story of innovation and precision. Welcome to
+          my realm of creation!</p>
+      </div>
+
+      <div class="slide-container swiper" data-aos="zoom-in">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+
+            <!--Project 1-->
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="project-image">
+                  <img src="images/project/1Portfolio web.png" alt="">
+                </div>
+              </div>
+              <div class="project-content">
+                <h2>Portfolio Website</h2>
+                <p>I have built a portfolio website using HTML, CSS and JavaScript. I always keep on updating this
+                  project with my laest updates.</p>
+                <button class="button">View/Demo</button>
+                <a href="https://github.com/dksilentkiller" target="_blank"><button class="button">Details</button></a>
+              </div>
+            </div>
+
+            <!--Project 2-->
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="project-image">
+                  <img src="images/project/2Food web.png" alt="">
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h2>Hotel Website</h2>
+                <p>Revamped a hotel website with a full-screen image slider, overlay integration, and improved UX.
+                  Enhanced responsiveness and performance, leading to a 25% increase in online bookings.
+                </p>
+                <button class="button">View/Demo</button>
+                <a href="https://github.com/dksilentkiller" target="_blank"><button class="button">Details</button></a>
+              </div>
+            </div>
+
+            <!--Project 3-->
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="project-image">
+                  <img src="images/project/3Calculator.png" alt="">
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h2>Simple Calculator</h2>
+                <p>Designed and developed a age calculator using Javascript and CSS. Which takes which perfoms
+                  arithmatic operations as simple calculator</p>
+                <button class="button">View/Demo</button>
+                <a href="https://github.com/dksilentkiller" target="_blank"><button class="button">Details</button></a>
+              </div>
+            </div>
+
+            <!--Project 4-->
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="project-image">
+                  <img src="images/project/4Weather.png" alt="">
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h2>Weather Wise</h2>
+                <p>WeatherWise gives you instant weather updates by location. Just enter where you are, and get current
+                  conditions, forecasts, and more. Stay prepared with WeatherWise!</p>
+                <button class="button">View/Demo</button>
+                <a href="https://github.com/dksilentkiller" target="_blank"><button class="button">Details</button></a>
+              </div>
+            </div>
+
+            <!--Project 5-->
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="project-image">
+                  <img src="images/project/5BMI calculator.png" alt="">
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h2>BMI Calculator</h2>
+                <p>BMI Buddy calculates your body mass index quickly. Enter your height and weight to get your BMI and
+                  understand your health status. Stay informed with BMI Buddy!</p>
+                <button class="button">View/Demo</button>
+                <a href="https://github.com/dksilentkiller" target="_blank"><button class="button">Details</button></a>
+              </div>
+            </div>
+
+            <!--Project 7-->
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="project-image">
+                  <img src="images/project/7College web.png" alt="">
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h2>College Website</h2>
+                <p>Created a clone website for IIIM Ayodhya, focusing on replicating design elements and functionality
+                  for educational purposes.</p>
+                <button class="button">View/Demo</button>
+                <a href="https://github.com/dksilentkiller" target="_blank"><button class="button">Details</button></a>
+              </div>
+            </div>
+
+            <!--Project 8-->
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="project-image">
+                  <img src="images/project/8Travelling web.png" alt="">
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h2>Travelling website</h2>
+                <p>Designed a travel website, featuring user-friendly navigation and comprehensive destination guides for seamless trip planning.</p>
+                <button class="button">View/Demo</button>
+                <a href="https://github.com/dksilentkiller" target="_blank"><button class="button">Details</button></a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience" id="experiences">
+    <div class="container">
+      <div class="col-lg-11 text-center mx-auto col-12">
+        <div class="sectionhead">
+          <h1 data-aos="fade-up"><i class="fa-solid fa-briefcase"></i> Exprience<span>s</span></h1>
+        </div>
+        <p data-aos="fade-up">"I craft bespoke solutions tailored to clients of every scale, with a focus on delivering
+          sleek, cutting-edge websites that captivate and engage.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 m-15px-tb">
+          <div class="experience-box">
+            <ul>
+              <li data-aos="fade-right">
+                <div class="icon">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+                <span class="time">Sep 2023 to Jan 2024
+                </span>
+                <h5>Drop shipping and Digital Marketing
+                  - Digital Heroes
+                </h5>
+                <p>I specialize in website development and design using Shopify. This includes managing the backend,
+                  designing the front end, adding features, and more. I'm dedicated, eager to learn, and thrive on new
+                  challenges.</p>
+              </li>
+              <li data-aos="fade-left">
+                <div class="icon">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+                <span class="time">DEC 2022 - FEB 2023</span>
+                <h5>INTERNSHALA STUDENT PARTNER - 32,33 - INTERNSHALA</h5>
+                <p>Internshala Student Partner Program is a 45-day transformational journey in which I shall help my
+                  college mates to meet their career goals.</p>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 m-15px-tb">
+          <div class="experience-box">
+            <ul>
+              <li data-aos="fade-left">
+                <div class="icon">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+                <span class="time">May 2022 to Jun 2022
+                </span>
+                <h5>Digital Marketing - Hamari Pahchan NGO
+                </h5>
+                <p>Successfully crafted compelling content for diverse social media platforms, boosting brand presence
+                  and engagement. Orchestrated effective crowdfunding initiatives through persuasive storytelling,
+                  surpassing fundraising objectives. Implemented strategic digital marketing campaigns across various
+                  channels, amplifying website traffic and conversion rates. Produced visually captivating posters and
+                  graphics to bolster marketing efforts and promotional endeavors.</p>
+              </li>
+              <li data-aos="fade-right">
+                <div class="icon">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+                <span class="time">May 2022 to Jun 2022</span>
+                <h5>Brand Promotion - Let Us Do It For You</h5>
+                <p>Implemented robust digital marketing strategies to enhance brand visibility and boost online
+                  presence. Established key partnerships to broaden market outreach and seize new business prospects.
+                  Conducted thorough market research and competitor analysis to stay ahead of industry trends,
+                  facilitating the development of cutting-edge marketing solutions.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Achievements and Certifications-->
+  <section class="achievements" id="achievements">
+    <div class="container">
+      <div class="col-lg-11 text-center mx-auto col-12">
+        <div class="sectionhead">
+          <h1 data-aos="fade-up"><i class="fa-solid fa-medal"></i> Achievements & <span>Certifications</span></h1>
+        </div>
+
+
+        <div class="box-container row">
+          <div class="box">
+            <img src="images/certificates/1_Coursera Foundations of User Experience (UX) Design.jpg" data-aos="zoom-in">
+            <button class="read-more" data-aos="zoom-in"
+              data-url="images/certificates/1_Coursera Foundations of User Experience (UX) Design.pdf"
+              data-title="Foundations of User Experience (UX) Design - Google"
+              data-description="Master the fundamental principles and methodologies essential for crafting intuitive and impactful user experiences in the Foundations of User Experience (UX) Design course.">Read
+              More</button>
+            <div class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Certificate 1</h2>
+                <p>Details about certificate 1...</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="box" data-aos="zoom-in">
+            <img src="images/certificates/2_TATA Cybersecurity Analyst Job Simulation.jpg">
+            <button class="read-more" data-url="images/certificates/2_TATA Cybersecurity Analyst Job Simulation.pdf"
+              data-title="Cybersecurity Analyst Job Simulation - TATA"
+              data-description="Hands-on tasks encompassing Identity and Access Management (IAM) fundamentals, strategy assessment, custom solution crafting, and platform integration, essential for a Cybersecurity Analyst role.">Read
+              More</button>
+            <div class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="box" data-aos="zoom-in">
+            <img src="images/certificates/3_TCS soft skill  Dharmendra Yadav.jpg">
+            <button class="read-more" data-url="images/certificates/3_TCS soft skill  Dharmendra Yadav.pdf"
+              data-title="TCS ION Career Edge Young Professional - TCS"
+              data-description="Master essential professional competencies and career readiness with TCS ION Career Edge Young Professional: a comprehensive course encompassing communication, presentation, soft skills, career guidance, resume and email writing, interview techniques, business and telephone etiquette, accounting fundamentals, IT basics, and an introduction to Artificial Intelligence.">Read
+              More</button>
+            <div class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box" data-aos="zoom-in">
+            <img src="images/certificates/4_Coursera Create a Website Using Wordpress.jpg">
+            <button class="read-more" data-url="images/certificates/4_Coursera Create a Website Using Wordpress.pdf"
+              data-title="Create a Website Using Wordpress - Coursera"
+              data-description="Learn to build a website using WordPress with free hosting and a sub-domain in this comprehensive course.">Read
+              More</button>
+            <div class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box" data-aos="zoom-in">
+            <img src="images/certificates/5_infyosis AI.jpg">
+            <button class="read-more" data-url="images/certificates/5_infyosis AI.pdf"
+              data-title="Artificial Intelligence Primer Certification - Infosys"
+              data-description="Unlock the potential of AI with our comprehensive Artificial Intelligence Primer Certification.">Read
+              More</button>
+            <div class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box" data-aos="zoom-in">
+            <img src="images/certificates/6_infyosis deta science.jpg">
+            <button class="read-more" data-url="images/certificates/6_infyosis deta science.pdf"
+              data-title="Data Science Foundation Certification - Infosys"
+              data-description="Master the fundamentals of data science with our comprehensive Data Science Foundation Certification course.">Read
+              More</button>
+            <div class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+              </div>
+            </div>
+          </div>
+          <div class="box" data-aos="zoom-in">
+            <img src="images/certificates/7_linkdin Digital Marketing Foundation.jpg">
+            <button class="read-more" data-url="images/certificates/7_linkdin Digital Marketing Foundation.pdf"
+              data-title="Digital Marketing Foundations - Linkedin"
+              data-description="Unlock the power of digital marketing with our foundational course. Dive into the core principles, strategies, and tools essential for navigating the dynamic landscape of online marketing. From SEO and social media to email campaigns and analytics, gain the skills to build effective digital marketing campaigns that drive results and propel your business forward.">Read
+              More</button>
+            <div class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box" data-aos="zoom-in">
+            <img src="images/certificates/8_iiit computer.jpg">
+            <button class="read-more" data-url="images/certificates/8_iiit computer.pdf"
+              data-title="BASIC COMPUTER SKILLS - IIIT KOTA" data-description="">Read More</button>
+            <div class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+              </div>
+            </div>
+          </div>
+          <div class="box" data-aos="zoom-in">
+            <img src="images/certificates/9_Skillup Ethical Hacking.jpg">
+            <button class="read-more" data-url="images/certificates/9_Skillup Ethical Hacking.pdf"
+              data-title="9_Skillup Ethical Hacking - Skillup" data-description="">Read More</button>
+            <div class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="sectionhead">
+        <h1 data-aos="fade-up"><i class="fa-solid fa-address-book"></i> Contact <span>Me</span></h1>
+      </div>
+      <div class="box flex-direction">
+        <div class="contact-image" data-aos="fade-right">
+          <img src="./images/contact_img.png" alt="Contact Image">
+        </div>
+        <div class="form">
+          <!-- Start of Form -->
+          <form class="contact-form" onsubmit="sendEmail(); return false;" action="https://api.web3forms.com/submit"
+            method="POST">
+            <!-- Name field with pattern for letters and spaces -->
+            <input type="hidden" name="access_key" value="e9bdcabb-21ec-4382-b939-b1802b0193d4">
+            <input class="form-controls" id="name" type="text" placeholder="Your Name" pattern="^[a-zA-Z\s]+$"
+              data-aos="fade-left" required title="Name should only contain letters and spaces" name="name">
+
+            <!-- Gmail email pattern -->
+            <input class="form-controls" id="email" type="email" placeholder="Your Gmail"
+              pattern="[a-z0-9._%+-]+@gmail\.com$" data-aos="fade-left" required
+              title="Please enter a valid Gmail address" name="email">
+
+            <!-- Phone number pattern for 10-digit number -->
+            <input class="form-controls" id="phone" type="text" placeholder="Your Phone" pattern="^\d{10}$"
+              data-aos="fade-left" required title="Please enter a valid 10-digit phone number (digits only)"
+              name="number">
+
+            <!-- Message text area -->
+            <textarea class="form-controls" id="message" placeholder="Write your message" name="message" cols="30"
+              rows="4" data-aos="fade-left" required></textarea>
+
+
+            <!-- Submit button -->
+            <div>
+              <input class="form-btn btn common-btn" type="submit" value="Send Message" data-aos="zoom-in">
+            </div>
+          </form>
+          <!-- End of Form -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer section starts -->
+  <section class="footer">
+    <div class="social">
+
+      <a data-aos="zoom-in" href="https://api.whatsapp.com/send/?phone=916306008818&text&type=phone_number&app_absent=0"
+        class="fa-brands fa-whatsapp" target="_blank"></a>
+
+      <a data-aos="zoom-in" href="https://www.linkedin.com/in/dksilentkiller/" class="fab fa-linkedin"
+        target="_blank"></a>
+      <a data-aos="zoom-in" href="https://github.com/dksilentkiller" class="fab fa-github" target="_blank"></a>
+      <a data-aos="zoom-in" href="mailto:dkmom00@gmail.com" class="fas fa-envelope" target="_blank"></a>
+      <a data-aos="zoom-in" href="https://www.instagram.com/dksilentkiller/" class="fab fa-instagram"
+        target="_blank"></a>
+      <a data-aos="zoom-in" href="https://www.facebook.com/dksilentkiller/" class="fab fa-facebook" target="_blank"></a>
+      <a data-aos="zoom-in" href="https://in.pinterest.com/dksilentkiller/" class="fa-brands fa-pinterest"
+        target="_blank"></a>
+      <a data-aos="zoom-in" href="https://youtube.com/@dksilentkiller/channel?sub_confirmation=1"
+        class="fa-brands fa-youtube" target="_blank"></a>
+    </div>
+    <div class="note">
+      <p>Coding, learning, evolving. Join me on this journey of continuous improvement</p>
+    </div>
+    </div>
+    <div class="credit">
+      <p>Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/dksilentkiller/">
+          Dharmendra</a>
+      </p>
+    </div>
+
+  </section>
+
+  <!-- footer section ends -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+  <!--Smooth Scroll-->
+  <script src="js/jQuery.headroom.js"></script>
+  <script src="js/Headroom.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/preloader.js"></script>
+  <script>
+    AOS.init({
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 700, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: true, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+    });
+
+  </script>
+  <!--Partile.js-->
+  <script src="./js/particles.min.js"></script>
+  <script src="./js/app.js"></script>
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+  <!-- Include Popup script -->
+  <script src="js/popup.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="js/message.js"></script>
+
+  <a class="skip-link" href="index.html" title="Skip to main content" aria-label="Skip to main content">Skip to main
+    content</a>
+
+</body>
+
+</html>
